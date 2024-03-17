@@ -1,0 +1,341 @@
+.container {
+    position: relative;
+    width: 95vw;
+    height: 90vh;
+    margin: 30px;
+    display: flex;
+}
+.nav {
+    background-color: #4d4637;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    position: absolute;
+    overflow: hidden;
+    left: 0vw;
+    width: 15vw;
+    height: 90vh;
+    border-radius: 15px;
+    z-index: 1;
+}
+.contents {
+    background-color: #f8f3e7;
+    position: absolute;
+    left: 10vw;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 15px;
+}
+.profile {
+    background-color: #f8f3e7;
+    position: absolute;
+    left: 82vw;
+    width: 12vw;
+    height: 30vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+
+    color: #4d4637;
+    font-size: 15px;
+    font-weight: 600;
+}
+.alarm {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+.logo {
+    color: #ffb700;
+    font-size: 30px;
+    font-weight: 600;
+    z-index: 1;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.logoImg {
+    width: 12vw;
+}
+.menu {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40vh;
+}
+.light {
+    position: absolute;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.rectangleRow {
+    width: 170px;
+    height: 70px;
+    background: #f8f3e7;
+    border-radius: 50px 0 0 50px;
+}
+.rectangleCol {
+    width: 50px;
+    height: 170px;
+    background: #f8f3e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rectangleMin1 {
+    width: 50px;
+    height: 50px;
+    background: #4d4637;
+    border-radius: 0 0 15px 0;
+}
+.rectangleMin2 {
+    width: 50px;
+    height: 50px;
+    background: #4d4637;
+    border-radius: 0 15px 0 0;
+}
+.select {
+    color: #4d4637;
+    font-weight: 600;
+}
+.btn {
+    cursor: pointer;
+}
+.imgContainer {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.imgContainer img {
+    width: 100%; /* 이미지가 컨테이너에 꽉 차게 설정 */
+    height: auto; /* 가로 세로 비율 유지 */
+    display: block; /* 인라인 요소 간격 제거 */
+}
+.pocket1 {
+    position: relative;
+    left: 82vw;
+    width: 12vw;
+    top: 40vh;
+    height: 11vh;
+    border: 2px solid #a16951;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.pocket2 {
+    position: relative;
+    left: 67.7vw;
+    width: 12vw;
+    top: 61vh;
+    height: 11vh;
+    border: 2px solid #a16951;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.pocketTitle {
+    position: absolute;
+    top: -2vh;
+    background-color: #ffffff;
+    width: 8vw;
+    height: 4vh;
+    text-align: center;
+
+    color: #90c354;
+    font-size: 20px;
+    font-weight: 900;
+}
+.pocketContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pocketCoin {
+    color: #4d4637;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.refundBtn {
+    background-color: #90c354;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 10vw;
+    height: 4vh;
+    font-size: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.modal {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.modalContainer {
+    /* padding: 0.5vw; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modalHead {
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    width: 30vw;
+}
+.modalHead1,
+.modalHead2 {
+    width: 33.3%;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.deepGreenColor {
+    background-color: #ffffff;
+    color: #35b356;
+}
+.lightGreenColor {
+    background-color: #ffffff;
+    color: #90c354;
+}
+.grayColor {
+    background-color: #d4cfc8;
+    color: #4d4637;
+}
+.modalDeepGreen {
+    background-color: #35b356;
+}
+.modalLightGreen {
+    background-color: #90c354;
+}
+.modalBody {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 4vh; */
+}
+.chargeModalTitle1,
+.chargeModalTitle2 {
+    font-size: 22px;
+    font-weight: 900;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+}
+.chargeModalTitle1 {
+    color: #35b356;
+}
+.chargeModalTitle2 {
+    color: #90c354;
+}
+.chargeModalContent {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #4d4637;
+    gap: 9vw;
+}
+.chargeModalText {
+    font-weight: 900;
+    /* padding-bottom: 2vh; */
+}
+.chargeModalContent1,
+.chargeModalContent2 {
+    display: flex;
+    align-items: end;
+    padding-bottom: 2vh;
+}
+.input {
+    width: 13vw;
+    height: 5vh;
+    border-radius: 15px;
+    border: 2px solid #a16951;
+    text-align: center;
+    padding: 8px 0 2px;
+    font-size: 20px;
+    color: #4d4637;
+}
+.input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+    color: #c1b8ad;
+}
+.input:focus {
+    outline: 1px solid #a16951; /* 포커스 상태일 때의 border 색상 변경 */
+}
+.modalMax {
+    color: #4d4637;
+    font-size: 20px;
+    font-weight: 900;
+    padding-left: 0.5vw;
+}
+.chargeModalBtn1,
+.chargeModalBtn2 {
+    width: 50%;
+    height: 6vh;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+.chargeModalBtn1 {
+    background-color: #35b356;
+}
+.chargeModalBtn2 {
+    background-color: #90c354;
+}
+.logout {
+    color: #ffffff;
+    display: flex;
+    top: 60vh;
+    cursor: pointer;
+}
+.logout:hover {
+    color: #ffb700;
+}

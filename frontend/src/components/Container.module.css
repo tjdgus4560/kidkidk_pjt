@@ -1,0 +1,13 @@
+/* .container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 calc(14px * 5);
+    padding: calc(14px * 1);
+  }
+} */

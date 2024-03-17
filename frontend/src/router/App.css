@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "ImcreSoojin";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.3/ImcreSoojin.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --component-title: #4d4637;
+  --component-background: #f7f5f1;
+  --component-border: #c1b8ad;
+  --nav-background: #4d4637;
+  --nav-background-hover: #f8f3e7;
+  --nav-text-hover: #a16951;
+  --nav-text-default: white;
+  --nav-text-logo: #ffd525;
+}

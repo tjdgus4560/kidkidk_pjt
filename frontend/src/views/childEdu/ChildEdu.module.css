@@ -1,0 +1,38 @@
+.eduContainer {
+  position: absolute;
+  left: 7.5vw;
+  width: 60vw;
+  height: 90vh;
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.title {
+  color: #4d4637;
+  font-size: 30px;
+  font-weight: 900;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+.contents {
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: 12vw;
+  height: 30vh;
+  border: 3px solid #80759e;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  padding-top: 3vh;
+  font-size: 20px;
+  cursor: pointer;
+}
+.card:hover {
+  background-color: #bab5d0; /* 커서를 올렸을 때의 배경색 */
+}

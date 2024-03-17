@@ -1,0 +1,397 @@
+.manageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    color: #4d4637;
+}
+.fundNot {
+    margin-top: 5vh;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4d4637;
+    font-size: 30px;
+    font-weight: 900;
+    border: 1px solid #4d4637;
+    border-radius: 15px;
+}
+.content1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+}
+.card1,
+.card2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.title1 {
+    font-size: 28px;
+    font-weight: 900;
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+.startFund {
+    position: absolute;
+    left: 32vw;
+    font-size: 12px;
+    width: 8vw;
+    height: 3vh;
+    background-color: #4d4637;
+    color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.7vh;
+    cursor: pointer;
+}
+.title2 {
+    font-size: 15px;
+    font-weight: 900;
+}
+.title1,
+.title2 {
+    display: flex;
+    justify-content: center;
+}
+.card1_text1,
+.card2_text1 {
+    height: 10vh;
+    border: 2px solid #c1b8ad;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+.card1_text1 {
+    width: 40vw;
+}
+.card2_text10 {
+    color: #c1b8ad;
+}
+.card2_text20 {
+    color: #93b2f5;
+}
+.card2_text30 {
+    color: #f57d73;
+}
+.content2,
+.card9,
+.card7 {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.content2Title {
+    font-size: 15px;
+    font-weight: 900;
+}
+.content2Contents {
+    display: flex;
+    gap: 1vw;
+}
+.card3 {
+    padding: 1vh;
+    width: 15vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: #f7f5f1;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+}
+.card3Content1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card3Text1 {
+    color: #a16951;
+    font-size: 20px;
+    font-weight: 900;
+}
+.card3Text2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #a16951;
+    font-size: 30px;
+    font-weight: 900;
+}
+.graph {
+    background-color: #f7f5f1;
+}
+.content3 {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2vw;
+}
+.card8 {
+    width: 0.7vh;
+    height: 30vh;
+    background-color: #4d4637;
+}
+.card9 {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.content3News {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+/* 모달 CSS */
+/* 사기 모달 배경색 */
+.modalBuy {
+    background-color: #f57d73;
+    color: #ffffff;
+}
+
+/* 팔기 모달 배경색 */
+.modalSell {
+    background-color: #93b2f5;
+    color: #ffffff;
+}
+
+.modalBeforeBuy {
+    background-color: #ffffff;
+    border: 2px solid #f57d73;
+    color: #f57d73;
+}
+
+.modalBeforeSell {
+    background-color: #ffffff;
+    border: 2px solid #93b2f5;
+    color: #93b2f5;
+}
+
+.modalContainer {
+    /* padding: 0.5vw; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modalHead {
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    width: 25vw;
+}
+.modalHead1,
+.modalHead2 {
+    width: 50%;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+}
+.redColor {
+    background-color: #ffffff;
+    color: #f57d73;
+}
+.blueColor {
+    background-color: #ffffff;
+    color: #93b2f5;
+}
+.grayColor {
+    background-color: #d4cfc8;
+    color: #4d4637;
+}
+.modalBody {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalBodyContainer {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.modalBody1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1vh;
+}
+.successBody1Title {
+    color: #f57d73;
+    font-size: 23px;
+    font-weight: 900;
+}
+.failBody1Title {
+    color: #93b2f5;
+    font-size: 23px;
+    font-weight: 900;
+}
+.modalBody2 {
+    display: flex;
+    justify-content: center;
+    gap: 0.5vw;
+}
+.input {
+    width: 13vw;
+    height: 6vh;
+    border-radius: 15px;
+    border: 2px solid #a16951;
+    text-align: center;
+    /* padding: 8px 0 2px; */
+    font-size: 20px;
+    color: #4d4637;
+}
+.input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.input::placeholder {
+    font-size: 20px;
+    font-weight: 400;
+    color: #c1b8ad;
+}
+.input:focus {
+    outline: 1px solid #a16951; /* 포커스 상태일 때의 border 색상 변경 */
+}
+.modalBody3 {
+    display: flex;
+    color: #4d4637;
+    justify-content: center;
+}
+.modalBody3Line {
+    width: 0.2vw;
+    height: 16vh;
+    background-color: #c1b8ad;
+    margin-right: 20px;
+}
+.Body3Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3vh;
+    margin-right: 5vw;
+}
+.Body3Contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 2vh;
+}
+
+.modalBody1Content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.modalMax {
+    color: #4d4637;
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+    align-items: end;
+}
+.modalCoinBox {
+    display: flex;
+}
+.modalCoin,
+.modalCoin1 {
+    color: #a16951;
+    font-size: 20px;
+    font-weight: 900;
+}
+.modalBody1Line {
+    background-color: #c1b8ad;
+    width: 100%;
+    height: 0.3vh;
+    display: flex;
+}
+
+.modalCoinBox1 {
+    display: flex;
+    justify-content: end;
+}
+.modalBodyBtns {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.modalReset {
+    width: 10vw;
+    height: 6vh;
+    background-color: #4d4637;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.modalChoBtn {
+    width: 13vw;
+    height: 6vh;
+    border-radius: 15px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* 베팅 모달*/
+.betContainer {
+    width: 85%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.betBody1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+.betBody1Title {
+    color: #4d4637;
+    font-size: 25px;
+    font-weight: 900;
+}
+.betBody1Content {
+    width: 100%;
+    height: 7vh;
+    border: 1px solid #4d4637;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.betBody2 {
+    display: flex;
+}
+.noBarChart {
+    background-color: #f8f3e7;
+}

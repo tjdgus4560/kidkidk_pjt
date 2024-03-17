@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  kidkidk-service-blue:
+    image: kidkidk-service-blue
+
+    container_name: kidkidk-serivce-blue
+
+    ports:
+      - 3000:80

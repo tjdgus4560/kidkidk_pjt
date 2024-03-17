@@ -1,0 +1,18 @@
+.stateContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    color: #4d4637;
+}
+.stateTitle {
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noContent {
+    display: flex;
+    justify-content: center;
+    margin-top: 30vh;
+}

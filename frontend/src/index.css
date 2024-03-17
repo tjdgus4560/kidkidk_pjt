@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --gmarket-sans: "GmarketSansMedium";
+  --noto-sans: -apple-system, "Noto Sans KR", sans-serif;
+
+  --component-title: #4d4637;
+  --component-background: #f7f5f1;
+  --component-border: #c1b8ad;
+  --nav-background: #4d4637;
+  --nav-background-hover: #f8f3e7;
+  --nav-text-hover: #a16951;
+  --nav-text-default: white;
+  --nav-text-logo: #ffd525;
+}
+
+html {
+  font-family: var(--noto-sans);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+textarea,
+input,
+div,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+button {
+  font-family: var(--gmarket-sans);
+  font-weight: 400;
+  color: var(--main2);
+}

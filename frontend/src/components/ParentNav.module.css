@@ -1,0 +1,163 @@
+.container {
+    position: relative;
+    width: 95vw;
+    height: 90vh;
+    margin: 30px;
+    display: flex;
+}
+.nav {
+    background-color: #4d4637;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    position: absolute;
+    overflow: hidden;
+    left: 0vw;
+    width: 15vw;
+    height: 90vh;
+    border-radius: 15px;
+    z-index: 1;
+}
+.contents {
+    background-color: #f8f3e7;
+    position: absolute;
+    left: 10vw;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 15px;
+}
+.profile {
+    position: absolute;
+    left: 83vw;
+    width: 10vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    color: #4d4637;
+    font-size: 15px;
+    font-weight: 600;
+}
+.logo {
+    color: #ffb700;
+    font-size: 30px;
+    font-weight: 600;
+    z-index: 1;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.logoImg {
+    width: 12vw;
+}
+.menu {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+    position: relative;
+    z-index: 999;
+    margin-bottom: 40vh;
+}
+.light {
+    position: absolute;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+.rectangleRow {
+    width: 170px;
+    height: 70px;
+    background: #f8f3e7;
+    border-radius: 50px 0 0 50px;
+}
+.rectangleCol {
+    width: 50px;
+    height: 170px;
+    background: #f8f3e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rectangleMin1 {
+    width: 50px;
+    height: 50px;
+    background: #4d4637;
+    border-radius: 0 0 15px 0;
+}
+.rectangleMin2 {
+    width: 50px;
+    height: 50px;
+    background: #4d4637;
+    border-radius: 0 15px 0 0;
+}
+.select {
+    color: #4d4637;
+    font-weight: 600;
+}
+.btn {
+    cursor: pointer;
+}
+.imgContainer {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.imgContainer img {
+    width: 100%; /* 이미지가 컨테이너에 꽉 차게 설정 */
+    height: auto; /* 가로 세로 비율 유지 */
+    display: block; /* 인라인 요소 간격 제거 */
+}
+
+/* 아이 탭 창 */
+.parentChildTab {
+    height: 55vh;
+    padding-top: 30px;
+}
+
+.parentChildTabContainer {
+    /* background-color: #90c354; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 12vw;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.parentChildTabContainer:hover {
+    background-color: #35b356;
+    cursor: pointer;
+}
+
+/* 알람 */
+.alarm {
+    width: 45px;
+    height: 45px;
+    margin-left: 8vw;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+/* 로그아웃 */
+.logout {
+    /* font-size: smaller; */
+    /* margin-top: 30vh; */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: #ffb700;
+}

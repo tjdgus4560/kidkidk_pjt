@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  kidkidk-api-blue:
+    image: kidkidk-api-green
+
+    container_name: kidkidk-api-green
+
+    ports:
+      - 8081:8080

@@ -1,0 +1,29 @@
+.stateContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  align-items: center;
+}
+.lineChart {
+  position: relative;
+  height: 25vh;
+  width: 45vw;
+
+  background-color: #f7f5f1;
+  padding: 15px;
+  border: solid 3px #c1b8ad;
+  border-radius: 15px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 900;
+  color: #4d4637;
+}
+.scrollContainer {
+  width: 90%;
+}

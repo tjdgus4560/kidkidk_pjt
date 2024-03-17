@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+<h1>Login Page</h1>
+<a th:href="@{http://localhost:8080/oauth2/authorization/kakao(redirect_uri='http://localhost:8080/hi', mode='login')}">Kakao Login</a>
+<!-- Add other OAuth2 providers -->
+<a th:href="@{http://localhost:8080/oauth2/authorization/naver(redirect_uri='http://localhost:8080/hi', mode='login')}">Naver Login</a>
+
+
+</body>
+</html>

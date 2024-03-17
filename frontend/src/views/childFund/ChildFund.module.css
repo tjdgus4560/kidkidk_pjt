@@ -1,0 +1,49 @@
+.fund {
+  position: absolute;
+  left: 7.5vw;
+  width: 60vw;
+  height: 90vh;
+}
+.toggle {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  padding-top: 4%;
+}
+.textselected {
+  color: #ffb700;
+  font-size: 30px;
+  font-weight: 600;
+  width: 100px;
+  text-align: center;
+}
+.textunselected {
+  color: #b4b4b4;
+  font-size: 25px;
+  font-weight: 600;
+  width: 100px;
+  text-align: center;
+  margin-top: 6.8px;
+}
+.lineselected {
+  background-color: #ffb700;
+  width: 100%;
+  height: 3px;
+  border: 0;
+  margin-top: 5px;
+}
+.lineunselected {
+  background-color: #b4b4b4;
+  width: 100%;
+  height: 3px;
+  border: 0;
+  margin-top: 5px;
+}
+.circle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 10.5vh;
+  border-radius: 50%;
+  background-color: #ffb700;
+}

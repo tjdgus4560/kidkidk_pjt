@@ -1,0 +1,168 @@
+.parentMainContainer {
+    position: relative;
+    width: 70vw;
+    height: 90vh;
+    border-radius: 15px;
+}
+
+.parentMainContainerStart {
+    position: absolute;
+    left: 7.5vw;
+    width: 60vw;
+    height: 90vh;
+}
+
+/* 아이 자산 현황 */
+
+.childAssetProgress > p {
+    color: var(--component-title);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.circularProgressContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: var(--component-background);
+    border-radius: 15px;
+    border: 3px solid var(--component-border);
+}
+
+.circularProgressBox {
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circularProgress {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.circularProgress::before {
+    content: '';
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circularProgress span {
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--nav-background);
+}
+
+/* 아이 투자 현황 */
+
+.childInvestProgress {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.childInvestProgress > p {
+    text-align: center;
+    color: var(--component-title);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.childInvestProgressFrame {
+    background-color: var(--component-background);
+    border-radius: 15px;
+    border: 3px solid var(--component-border);
+    padding: 10px;
+}
+
+.childInvestProgressInfo > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+    color: var(--nav-background);
+}
+
+.childInvestProgressInfo > ul > li {
+    list-style: none;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+}
+
+.investQuitButton {
+    background-color: var(--component-title);
+    color: white;
+    font-size: 13px;
+    border-radius: 15px;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.childInvestProgressWeekTable {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px 0px 10px;
+}
+
+.childInvestProgressWeekTable > table {
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+    border-collapse: collapse;
+    margin-top: 15px;
+    color: var(--nav-background);
+}
+
+.childInvestProgressWeekTable > table > thead > tr {
+    border-bottom: 3px solid var(--nav-background);
+}
+
+.childInvestProgressWeekTable > table th {
+    width: 100px;
+}
+
+.childInvestProgressWeekTable > table td {
+    padding-top: 10px;
+    width: 100px;
+}
+.modalComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    height: 100%;
+    text-align: center;
+}
+.modalContents {
+    color: #4d4637;
+    font-size: 20px;
+}
+.modalClose {
+    width: 10vw;
+    height: 4vh;
+    border-radius: 15px;
+    background-color: #4d4637;
+    color: #f8f3e7;
+    cursor: pointer;
+}

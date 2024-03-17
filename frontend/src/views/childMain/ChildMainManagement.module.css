@@ -1,0 +1,179 @@
+.manageContainer {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+.card1 {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+}
+.card1_1 {
+    width: 20vw;
+    padding: 15px;
+    border: solid 3px #c1b8ad;
+    border-radius: 15px;
+    background-color: #f7f5f1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    text-align: center;
+}
+.card1_2 {
+    width: 30vw;
+    padding: 15px;
+    border: solid 3px #c1b8ad;
+    border-radius: 15px;
+    background-color: #f7f5f1;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.title {
+    display: flex;
+    font-size: 20px;
+    font-weight: 900;
+    color: #4d4637;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+}
+.title_info {
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #c1b8ad;
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 52vw;
+}
+.iconContainer1 {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+    margin: 0 40px;
+
+    font-size: 25px;
+    font-weight: 900;
+    color: #4d4637;
+}
+.iconContainer2 {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+
+    font-size: 15px;
+    font-weight: 900;
+    color: #4d4637;
+}
+.colorbox {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+}
+.infoContainer1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.infoContainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+.boxdetail {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.refundBtn {
+    width: 20vw;
+    background-color: #4d4637;
+    color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.refundContainer {
+    margin: 0 auto;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card2_1 {
+    height: 13vh;
+    border: solid 3px #c1b8ad;
+    background-color: #f7f5f1;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+}
+.card2_2 {
+    height: 10vh;
+    border: solid 3px #c1b8ad;
+    background-color: #f7f5f1;
+    border-radius: 15px;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card2Content {
+    display: flex;
+    align-items: center;
+}
+.jobTask {
+    width: 25vw;
+    display: flex;
+}
+.barChartBack {
+    position: relative;
+    background-color: #c1b8ad;
+    width: 20vw;
+    height: 3vh;
+    margin-right: 1vw;
+    /* z-index: 3; */
+}
+.barChart {
+    position: absolute;
+    background-color: #5fb776;
+    left: 27vw;
+    width: 10vw;
+    height: 3vh;
+}
+.barChartCnt {
+    margin-right: 2vw;
+}
+.jobTaskBtn {
+    background-color: #4d4637;
+    width: 5vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.doughnutContainer {
+    display: flex;
+    align-items: center;
+}

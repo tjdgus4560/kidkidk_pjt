@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  kidkidk-notification-blue:
+    image: kidkidk-notification-green
+
+    container_name: kidkidk-notification-green
+
+    ports:
+      - 8181:8080

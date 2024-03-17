@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    /* overflow-y: hidden; */
+}
+
+.welcomeContainer {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* 화면에서 스크롤바 안보이게 */
+.welcomeContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.welcomePageFirst,
+.welcomePageSecond,
+.welcomePageThird {
+    width: 100%;
+    height: 100%;
+}
+
+.welcomePageFirst {
+    background-color: var(--nav-background);
+}
+.welcomePageSecond {
+    background-color: var(--component-background);
+}
+
+.divider {
+    width: 100%;
+    height: 5px;
+    background-color: gray;
+}

@@ -1,0 +1,55 @@
+.parentAlarmContainer {
+}
+
+.parentAlarmTitle p {
+    color: #4d4637;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.parentAlarmButtons {
+    margin-top: 10px;
+}
+
+.parentAlarmButtons button,
+.parentAlarmInfo button {
+    font-size: 15px;
+    background-color: #f7f5f1;
+    color: #4d4637;
+    border: 3px solid #4d4637;
+    border-radius: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+}
+
+.parentAlarmButtons button:hover,
+.parentAlarmInfo button:hover {
+    background-color: #4d4637;
+    color: #f7f5f1;
+}
+
+.parentAlarmInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parentAlarmInfo span {
+    margin-top: 10px;
+}
+
+.parentAlarmContents {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    /* overflow: auto; */
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 3%;
+}
